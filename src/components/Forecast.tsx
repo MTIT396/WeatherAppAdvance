@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import "swiper/css";
 
 import { useEffect, useState } from "react";
