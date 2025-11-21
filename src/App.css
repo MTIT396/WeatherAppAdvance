@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --color-gray: #5e5e5e;
+  --color-main: #1e1e1e;
+  --color-secondary: #363636;
+  --color-third: #272727;
+  --color-layout: #212121;
+  --color-sub-gray: #383838;
+}
+
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #f7f4ed;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #ddd;
+    border-radius: 100vh;
+    border: 3px solid #333;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #ddd;
+  }
+}
+
+/* Spinner */
+.spinner {
+  width: 80px;
+  height: 80px;
+  animation: spinner-rotate 1.4s linear infinite;
+}
+
+.spinner-path {
+  stroke: #ccc; /* Tailwind's blue-500 */
+  stroke-linecap: round;
+  animation: spinner-dash 1.4s ease-in-out infinite;
+}
+
+@keyframes spinner-rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinner-dash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 100, 200;
+    stroke-dashoffset: -15px;
+  }
+  100% {
+    stroke-dasharray: 100, 200;
+    stroke-dashoffset: -125px;
+  }
+}
