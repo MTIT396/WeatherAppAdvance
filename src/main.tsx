@@ -1,8 +1,8 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import App from "./App.tsx";
-import TempProvider from "./contexts/TempContext.tsx";
+import App from "./App";
+import TempProvider from "./contexts/TempContext";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
