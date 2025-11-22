@@ -7,7 +7,7 @@
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/WeatherAppAdvance/WeatherAppAdvance.git
+git clone https://github.com/MTIT396/WeatherAppAdvance.git
 ```
 
 2. Install dependencies:
