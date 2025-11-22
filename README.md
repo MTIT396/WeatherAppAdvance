@@ -1,7 +1,27 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Getting Started
 
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/WeatherAppAdvance/WeatherAppAdvance.git
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+### Development
+
+Start the development server:
+
+```bash
+npm run dev
+```
 🌤️ Weather App — React + TypeScript + TailwindCSS
 
 - A modern, fully responsive weather application built with React, TypeScript, and TailwindCSS. The app allows users to view real-time weather data, five-day forecasts, search for weather information across Vietnam, and save search history locally.
@@ -23,33 +43,33 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 📅 5-Day Forecast
 
-View a detailed 5-day weather forecast with temperature trends and key metrics.
+- View a detailed 5-day weather forecast with temperature trends and key metrics.
 
-Forecast displayed with a clean and modern layout for easier reading.
+- Forecast displayed with a clean and modern layout for easier reading.
 
 🗺️ Browse Other Cities
 
-Explore weather information for different locations without refreshing the app.
+- Explore weather information for different locations without refreshing the app.
 
 📱 Responsive Modern UI
 
-UI built with TailwindCSS
+- UI built with TailwindCSS
 
-Fully responsive on mobile, tablet, and desktop.
+- Fully responsive on mobile, tablet, and desktop.
 
-Clean, modern, and intuitive interface.
+- Clean, modern, and intuitive interface.
 
 🛠️ Tech Stack
 
-React (TypeScript) — Frontend framework with type safety
+- React (TypeScript) — Frontend framework with type safety
 
-Vite — Fast development build tool
+- Vite — Fast development build tool
 
-TailwindCSS — Utility-first CSS for styling
+- TailwindCSS — Utility-first CSS for styling
 
-OpenWeatherMap API — Real-time and forecast weather data
+- OpenWeatherMap API — Real-time and forecast weather data
 
-localStorage — Persistent search history
+- localStorage — Persistent search history
 
 Currently, two official plugins are available:
 
